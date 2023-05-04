@@ -13,7 +13,7 @@ trans = pylingva()
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 
-# Initialize bot and dispatcher
+# Initialize bot  and dispatcher
 with open("token", "r", encoding="utf-8") as f:
     bot = Bot(token=f.read().strip())
 dp = Dispatcher(bot)
